@@ -89,7 +89,7 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
   
 
 ## STM 32 CUBE PROGRAM :
-Developed by: Elamaran S E
+```Developed by: Elamaran S E
 Reg No. : 212222230036
 
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
@@ -100,7 +100,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 	  }
   }
 
-
+```
 ## Output screen shots of proteus  :
 ### LED OFF :
 ![274336849-dbec23dc-201d-4b8f-8e60-0a19f7d7bf4a](https://github.com/elamarannn/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/113497531/54b8e8ab-be3f-4df7-ac7e-00bc4cbc4641)
