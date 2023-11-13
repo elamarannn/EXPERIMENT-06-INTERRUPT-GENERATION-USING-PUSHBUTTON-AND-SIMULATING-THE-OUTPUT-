@@ -89,14 +89,28 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
   
 
 ## STM 32 CUBE PROGRAM :
+Developed by: Elamaran S E
+Reg No. : 212222230036
 
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+  {
+	  if((GPIO_Pin == GPIO_PIN_0))
+	  {
+		  HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_1);
+	  }
+  }
 
 
 ## Output screen shots of proteus  :
- 
+### LED OFF :
+![274336849-dbec23dc-201d-4b8f-8e60-0a19f7d7bf4a](https://github.com/elamarannn/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/113497531/54b8e8ab-be3f-4df7-ac7e-00bc4cbc4641)
+### LED ON :
+![274337004-df65cd16-da78-401e-937e-de63cffbc815](https://github.com/elamarannn/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/113497531/fbb15b57-9a5a-4bcf-aec7-4201f916bd28)
+
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  
- 
+ ![274337133-a4d6a5d4-0e2c-449f-b0e5-ef7cadabb282](https://github.com/elamarannn/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/113497531/db56fc37-d597-47ba-b750-bba9ed82b5a9)
+
 ## Result :
 Interfacing a push button and interrupt genrateion is simulated using proteus 
